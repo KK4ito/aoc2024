@@ -25,7 +25,6 @@ fun main() {
         var sum = 0
 
         regex.findAll(input.joinToString()).forEach { matchResult ->
-            println(matchResult)
             when {
                 matchResult.value == "do()" -> enabled = true
                 matchResult.value == "don't()" -> enabled = false
