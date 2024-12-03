@@ -5,8 +5,8 @@ import readInput
 
 fun main() {
     
-    val day = "day01";
-    
+    val day = "day01"
+
     fun part1(input: List<String>): Int {
         val (sortedLeft, sortedRight) = input.map { it.split("   ") }
             .map { it[0] to it[1] }
